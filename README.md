@@ -16,4 +16,4 @@ test_v2.ipynb evaluates a model, based on a side_length of the kernel filter giv
 Retinanet:
 train.py trains Retinanet models in a similar way to that of Faster RCNN. After training for 80 epochs, training using general tables is stopped and the dataset used for training will be changed to borderless tables instead for the last step of the iterative transfer learning process. 
 
-validation.py
+validation.py calculates the recall and precision of the models trained with varying IoU after importing functions from csv_eval.py, dataloader.py and model.py.
